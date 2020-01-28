@@ -3,62 +3,38 @@
   <head>
   <!-- Instruções para o navegador -->
     <title>Miroswd</title>
-    <link rel="icon" href="favicon.ico" type="image/x-icon"/>
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-    <style>
-      *{
-        margin:0;
-        padding: 0;
-        border:0;
-      }
+    <link rel="icon" href="../assets/favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="styles.css">
 
-      body {
-        background-color:#282a36;
-        color: #FFFFFF;
-        font-family: 'Roboto', sans-serif;
+    <!-- 
+      links externos -> href
 
-      }
-
-      header {
-        margin:0;
-        padding:30px;
-        border-bottom: 1px solid #444;
-        background-color: rgba(0,0,0,0.2);
-      }
-
-      /* Aprofundamento - Cascata - indo diretamente no elemento */
-      header div {
-        text-align: center;
-      }
-
-      header div a {
-        color:#FFF;
-        font-size: 18px;
-        line-height: 28px; /* Espaçamento da linha*/
-        margin-right:30px;
-        text-decoration: none;
-      }
-
-      header div a:hover{
-        color:#50fa7b;
-        padding-bottom: 6px;
-        border-bottom: 1px solid #50fa7b;
-
-        transition: color 300ms;
-      }
-
-    </style>
+     -->
   </head>
 
   <body>
     <header>
       <!-- Parte inicial do site -->
-      <div class="menu">
+      <div class="links">
         <!-- Agrupa elementos -->
-        <a href="https://discordapp.com/invite/gCRAFhc">Comunidade</a>
         <a href="mailto:oi@rocketseat.com.br">Email</a>
+        <a href="https://discordapp.com/invite/gCRAFhc" target="_blank">Comunidade</a>
         <a href="tel:+5547992078767">Telefone</a>
+        <a href="about.html">Sobre</a>
       </div>
     </header>
+
+    <div id="wrapper">
+      <img src="https://avatars1.githubusercontent.com/u/54915150?s=460&v=4" alt="miroswd"/>
+      <h1>Miroswd</h1>
+      <h4>Desenvolvedor Full-stack</h4>
+      <p>Estudando os conceitos de HTML, CSS, JavaScript, Node.JS, ReactJS, React Native, GIT e outras tecnologias.</p>
+    </div>
+
+    <div id="links-footer" class="links">
+      <a href="https://github.com/miroswd" target="_blank">Github</a>
+      <!-- <a href="https://github.com/miroswd">Twitter</a> -->
+      <a href="https://www.linkedin.com/in/altamir-santos-874368146/" target="_blank">Linkedin</a>
+    </div>
   </body>
 </html>
