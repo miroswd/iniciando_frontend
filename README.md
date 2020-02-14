@@ -8,6 +8,7 @@
   <li>Espaçamento com CSS</li>
   <li>Estilização de background, texto, links e imagens</li>
   <li>Uso de variáveis CSS</li>
+  <li>Espaçamento com CSS - Grid</li>
 </ul>
 
 <h4>Resultados:<h4>
