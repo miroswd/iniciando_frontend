@@ -13,7 +13,11 @@
 <h4>Resultados:<h4>
 <h6>Baseado nas aulas</h6>
 <p style="text-aling:center;">
+  <h6>sobre</h6>
   <img src="https://github.com/miroswd/iniciando_frontend/blob/master/assets/miroswd.png" />
+  
+  <h6>aulas</h6>
+  <img src="https://github.com/miroswd/iniciando_frontend/blob/master/assets/aulas.png" />
 </p>
 
 <h6>Resultado da execução dos desafios propostos</h6>

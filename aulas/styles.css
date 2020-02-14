@@ -3,6 +3,7 @@
 :root {
   /* Criando variáveis */
   --color-green: #50fa7b;
+  --color-rocket:#7159c1;
 }
 
 *{
@@ -85,4 +86,41 @@ header{
 
 #links-footer a {
   border-bottom: 1px solid var(--color-green);
+}
+
+
+/**  CARDS **/
+
+.cards {
+  max-width: 800px;
+  margin: 0 auto;
+  
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap:20px; /*Espaçamento entre elementos do grid*/
+}
+
+.card {
+  background-color: var(--color-rocket);
+}
+
+.card-image-container img{
+  width: 100%; /* Faz com que o img respeite o pai dele, respeitando o limite de largura*/ 
+}
+
+.card-content, .card-info {
+  padding: 24px;
+}
+
+.card-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /*Dividindo em frações, como se fosse uma tabela*/
+}
+
+.card-price {
+  background-color:var(--color-rocket);
+  filter:brightness(90%);
+  padding: 5px 20px;
+  border-radius: 20px;
+  text-align: center;
 }
