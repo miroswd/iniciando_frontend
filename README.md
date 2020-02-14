@@ -1,4 +1,4 @@
-<h1>Iniciando com Front-end com HTML e CSS</h1>
+<h1>Iniciando Front-end com HTML e CSS</h1>
 
 <h6>Conceitos</h6>
 <ul>
