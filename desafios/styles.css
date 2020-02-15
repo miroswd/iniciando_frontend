@@ -2,6 +2,8 @@
 
 :root {
   --rocketseat: #7159C1;
+  --launchbase: #FD951F;
+  --gostack:#04D361;
 }
 
 *{
@@ -93,3 +95,88 @@ header {
 #links-footer a:hover {
   border-bottom: 1px solid var(--rocketseat);
 }
+
+
+/* CURSOS */
+
+.courses {
+  max-width: 90%;
+  margin: 0 auto;
+  
+  position: relative;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+  text-align: center;
+  color:white;
+}
+
+.card {
+  margin: 80px auto;
+  width: 400px;
+  height: 500px;
+  
+  padding: 40px;
+
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  background-color: rgba(0,0,0,0.3);
+  
+  position: relative;
+  cursor: pointer;
+}
+
+#starter:hover {
+  border: 2px solid var(--rocketseat);
+}
+
+#launchbase:hover {
+  border: 2px solid var(--launchbase);
+}
+
+#gostack:hover {
+  border: 2px solid var(--gostack);
+}
+
+.card h1 {
+  font-size: 50px;  
+}
+
+.card img {
+  height: 200px;
+  margin: 100px 0;
+}
+
+.info-card{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+
+  gap: 100px;
+}
+
+.info-card p {
+  width: 100px;
+  margin: 0 auto;
+  
+  padding: 5px 10px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+#starter:hover .info-card p {
+  border: 1px solid var(--rocketseat);
+}
+
+#launchbase:hover .info-card p {
+  border: 1px solid var(--launchbase);
+}
+
+#gostack:hover .info-card p {
+  border: 1px solid var(--gostack);
+}
+
+
+
+

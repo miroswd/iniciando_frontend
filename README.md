@@ -1,9 +1,9 @@
-<h1>Iniciando Front-end com HTML, CSS e JavaScript</h1>
+<h1>Iniciando Front-end com HTML e CSS</h1>
 
 <h6>Conceitos</h6>
 <ul>
   <li>Estrutura HTML</li>
-  <li>Tags de texto, imagem, hyperlink, container e iframe</li>
+  <li>Tags de texto, imagem, hyperlink e container</li>
   <li>Especificidade (id) e Classificação (class)</li>
   <li>Espaçamento com CSS</li>
   <li>Estilização de background, texto, links e imagens</li>
