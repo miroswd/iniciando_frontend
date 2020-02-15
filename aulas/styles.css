@@ -124,3 +124,47 @@ header{
   border-radius: 20px;
   text-align: center;
 }
+
+/** MODAL **/
+
+.modal-overlay {
+  background-color: rgba(0,0,0, 0.5);
+  width: 100%;
+  height: 100%;
+
+  position: fixed;
+  top:0;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.modal {
+  margin: 5vh auto; /*vh -> view height*/
+  background-color: #fff;
+  width:90%;
+  height: 90%;
+  position: relative;
+}
+
+.modal .close-modal {
+  color:#f00;
+  position: absolute; /*Vai ficar absoluto na tela, por isso foi adicionado o relative no modal(pai do close)*/
+  top:8px;
+  right: 8px;
+  cursor: pointer;
+}
+
+
+/** MODAL ACTIVE **/
+
+.modal-overlay.active {
+  opacity: 1;
+  visibility:visible;
+}
+
+iframe {
+  width:100%;
+  height: 90%;
+  position: absolute; /*Pega a tela inteira*/
+  top: 5%;
+}
