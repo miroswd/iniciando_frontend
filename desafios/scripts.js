@@ -18,17 +18,24 @@ for (let card of cards ){
 
 modalOverlay.querySelector('.close-modal').addEventListener('click',function(){
   modalOverlay.classList.remove('active');
+  modal.classList.remove('fullscreen')
+  fullscreen.classList.remove('disable')
+  exit.classList.remove('active')
 })
 
 /*Expandindo o modal*/
 document.querySelector(".fullscreen").addEventListener("click",function(){
-  modal.classList.add('fullscreen')
-  fullscreen.classList.add('disable')
-  exit.classList.add('active')
+  if (!(modal.classList.contains('fullscreen'))){
+    modal.classList.add('fullscreen')
+    fullscreen.classList.add('disable')
+    exit.classList.add('active')
+  }
 })
 
 document.querySelector('.exit').addEventListener('click',function(){
-  modal.classList.remove('fullscreen')
-  fullscreen.classList.remove('disable')
-  exit.classList.remove('active')
+  if (modal.classList.contains('fullscreen')){
+    modal.classList.remove('fullscreen')
+    fullscreen.classList.remove('disable')
+    exit.classList.remove('active')
+  }
 })
